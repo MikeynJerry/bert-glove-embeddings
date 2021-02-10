@@ -6,13 +6,13 @@ In certain applications, often in the context of adversarial text attacks target
 
 ## Running the code
 
-First you'll need the required packages in `requirements.txt`. At the time of writing this, these are all the latest versions except for HuggingFace's `transformers`. It's likely to work with the latest `transformers` version with little to no modification.
+First you'll need the required packages in `requirements.txt`.
 
 ```
 torch==1.7.1
 torchtext==0.8.1
 tqdm==4.45.0
-transformers==3.0.2
+transformers==4.3.2
 ```
 
 Then run `python train.py --help` for all the available options.
